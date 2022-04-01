@@ -1,22 +1,48 @@
 import React from 'react';
+import resume from "../pics/John-resume.pdf";
 
-export default function Contact() {
+export default function Resume() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+    <div style={{textAlign: "center"}} className="resume-wrapper">
+      <div>
+        <h1>Resume</h1>
+        <p className="download-resume-wrap">
+          </p>
+        <p>  Get my resume here <br></br>
+        </p>
+          <a class="resume" className="btn btn-light" style={{textDecoration: "none"}}
+              href={resume}
+              target="_blank"
+              rel="noreferrer"
+              
+            >
+              Resume
+            </a>
+      </div>
+      <div>
+        <h2 id="resumelist" style={{color: "black"}} className="title">Front-end</h2>
+        <ul >
+          <p >REACT</p>
+          <p>HTML</p>
+          <p>JavaScript</p>
+          <p>jQuery</p>
+          <p>CSS</p>
+          <p>Bootstrap</p>
+        </ul>
+      </div>
+      <div>
+        <h2 className="title">Back-end</h2>
+        <ul>
+          <p>REST API</p>
+          <p>Node.js</p>
+          <p>Express.js</p>
+          <p>MongoDB, Mongoose</p>
+          <p>MySQL, Sequelize</p>
+          <p>Insomnia</p>
+          <p>GraphQL</p>
+          <p>Git</p>
+        </ul>
+      </div>
     </div>
   );
 }

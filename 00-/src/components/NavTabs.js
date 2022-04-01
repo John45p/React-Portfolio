@@ -2,10 +2,10 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <h1>John Quintanilla</h1>
-      <li className="nav-item">
-        <a
+    <ul  className="nav nav-tabs">
+      <h1 id="myname" style={{color: "black"}}>John Quintanilla</h1>
+      <li style={{paddingLeft: "85px"}} className="nav-item">
+        <a style={{color: "black"}}
           href="#home"
           onClick={() => handlePageChange('Home')}
 
@@ -14,8 +14,8 @@ function NavTabs({ currentPage, handlePageChange }) {
           About Me
         </a>
       </li>
-      <li className="nav-item">
-        <a
+      <li  className="nav-item">
+        <a style={{color: "black"}}
           href="#portfolio"
           onClick={() => handlePageChange('Portfolio')}
 
@@ -25,7 +25,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
       <li className="nav-item">
-        <a
+        <a style={{color: "black"}}
           href="#contact"
           onClick={() => handlePageChange('Contact')}
 
@@ -35,7 +35,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
       <li className="nav-item">
-        <a
+        <a style={{color: "black"}}
           href="#resume"
 
           onClick={() => handlePageChange('Resume')}

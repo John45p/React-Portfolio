@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-image: url("./components/pics/leone-venter-VieM9BdZKFo-unsplash.jpg");
+}
+
+.portfolioimages {
+  width: 200px !important ;
+  height: 200px !important;
+}
+.aboutdiv {
+}
+.picofme {
+  display: flex;
+  align-items: center;
+  margin-left: 750px;
+  margin-bottom: 70px;
+}
+#aboutme {
+  display: flex;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 400px;
+  margin-right: 350px;
+}
+.aboutme {
+  margin-left: 810px;
+  font-size: 65px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+footer {
+  position: relative;
+  z-index: 501;
+  font-size: 20px;
+  bottom: 0;
+  width: 100%;
+  clear: both;
+}
+
+#myname {
+  padding-left: 60px;
+  font-size: 60px;
+}
+
+.nav-item {
+  text-align: center;
+}
+li {
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+}
+ul {
+    text-decoration: none;
+}
+a.btn.btn-light {
+  color: black;
+  background-color: beige;
+  text-align: center;
+}
+a.btn-light:hover {
+  background-color: white;
+}
+.container {
+  text-align: center;
+}
+.row {
+  text-align: center;
+  padding-left: 700px;
+}
+
+.card-title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 28px;
+}
+.card-text {
+  text-align: center;
+  font-size: 15px;
+}
+
+  .download-resume-wrap {
+    font-size:20px;
+    color: black;
+    text-align: center;
+  }
+  .resume-download {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgb(17, 17, 141);
+    margin-left: 0.5rem;
+  }
+ 
+  .resume {
+    color: black;
+    background-color: beige;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 5px;
+  }
+
+.name {
+padding-top: 20px;
+
+}
+
+.email {
+padding-top: 20px;
+}
+
+.message {
+padding-top: 20px;
+}
+.icon1 {
+    margin-top: 10px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
